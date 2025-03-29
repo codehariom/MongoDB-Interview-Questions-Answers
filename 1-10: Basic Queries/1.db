@@ -1,0 +1,17 @@
+// Question :-  Find all records where Job is "Support Specialist".
+
+// Answer:- 
+
+    db.emp_data.find({Job: 'Support Specialist'});
+
+/* Explaintion :- 
+
+The command db.emp_data.find({Job: 'Support Specialist'}); in MongoDB is used to query the emp_data collection for documents where the Job field is equal to 'Support Specialist'.
+
+Here's a breakdown of the command:
+
+db.emp_data: Refers to the emp_data collection in the current database.
+
+find({Job: 'Support Specialist'}): The find method is used to search for documents in the collection. The query {Job: 'Support Specialist'} specifies the condition that the Job field must be equal to 'Support Specialist'.
+
+This command will return a cursor to all documents in the emp_data collection that match the specified query criteria */ 
